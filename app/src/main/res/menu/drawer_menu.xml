@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:shownIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/message"
+            android:icon="@drawable/ic_message_black_24dp"
+            android:title="message" />
+        <item
+            android:id="@+id/account"
+            android:icon="@drawable/ic_account_circle_black_24dp"
+            android:title="account" />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_power_settings_new_black_24dp"
+            android:title="logout" />
+        <item
+            android:id="@+id/contacts"
+            android:icon="@drawable/ic_call_black_24dp"
+            android:title="contacts" />
+
+
+    </group>
+    <item android:title="communicate">
+        <menu>
+            <item
+                android:id="@+id/share"
+                android:icon="@drawable/ic_share_black_24dp"
+                android:title="share" />
+            <item
+                android:id="@+id/send"
+                android:icon="@drawable/ic_send_black_24dp"
+                android:title="send" />
+
+        </menu>
+
+    </item>
+</menu>
